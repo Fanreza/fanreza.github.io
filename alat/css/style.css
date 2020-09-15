@@ -236,3 +236,61 @@ body{
 	}
 }
 
+.attempt6{
+	margin-top: 5%;
+	overflow: hidden;
+	margin-left: 25%;
+	position: relative;
+	width: 50%;
+}
+
+.attempt6 h1{
+	font-size: 40px;
+	padding-top: 10px;
+	color: #FEE97D;
+	text-align: center;
+}
+
+.attempt6 h3{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 4%;
+	color: #e8ff54;
+}
+
+
+.attempt6 p{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	padding: 20px 0 50px 0;
+	word-spacing: 1.2px;
+	text-align: center;
+}
+
+
+.footer{
+	background-color:;
+	height: 80px;
+	text-align: center;	
+	margin-top: 5%;
+	background-color:  #193345;
+}
+
+.footer a , .footer p{
+	font-size: 25px;
+	text-decoration: none;
+	color: #FEE97D;
+	padding-top: 30px;
+	font-weight: bolder;
+}
+
+.contact{
+	text-align: center;
+}
+
+.contact img{
+	width: 50px;
+	margin-left: 40px;
+	padding: 60px 5px 5px 5px
+}
