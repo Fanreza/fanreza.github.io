@@ -62,7 +62,6 @@ body{
 
 .attempt2{
 	margin-top: 100px;
-	overflow: auto;
 	margin-left: 25%;
 	position: relative;
 	width: 50%;
@@ -70,7 +69,6 @@ body{
 
 .attempt2 img{
 	width: 200px;
-	overflow: auto;
 	float: left;
 	padding-right: 25px;
 	border-radius: 20%;
@@ -86,17 +84,16 @@ body{
 
 .attempt3{
 	margin-top: 100px;
-	margin-left: 25%;
+	margin-left: 20%;
 	position: relative;
-	width: 800px;
 }
 
 .attempt3 img{
 	width: 200px;
-	overflow: auto;
 	float: right;
 	animation: rotate 6s infinite alternate;
 	border-radius: 50%;
+	margin-right: 10%;
 }
 
 .attempt3 p{
@@ -123,9 +120,9 @@ body{
 }
 
 .foto img{
-	margin-top: 10%;
-	margin-left: 42%;
 	width: 200px;
+	display: block;
+	margin: 10px auto;
 }
 
 .attempt4{
@@ -238,7 +235,6 @@ body{
 
 .attempt6{
 	margin-top: 5%;
-	overflow: hidden;
 	margin-left: 25%;
 	position: relative;
 	width: 50%;
@@ -293,4 +289,140 @@ body{
 	width: 50px;
 	margin-left: 40px;
 	padding: 60px 5px 5px 5px
+}
+
+@media(max-width: 800px){
+	.section1{
+		background-position: -40px -75px;
+	}
+
+	.attempt1 img{
+		width: 150px;
+		height: 150px;
+		display: block;
+		margin: 50px auto;
+	}
+
+	.attempt1 h1{
+		font-size: 30px;
+	}
+
+	.attempt1 p{
+		font-size: 20px;
+	}
+
+
+	.attempt2 img{
+		width: 120px;
+		height: 120px;
+		display: block;
+		margin: auto;
+		float: none;
+	}
+
+	.attempt2 p{
+		font-size: 20px;
+	}
+
+	.attempt3{
+		text-align: center;
+		margin-right: 20%;
+		margin-top: -10px;
+	}
+
+	.attempt3 img{
+		width: 150px;
+		height: 150px;
+		display: block;
+		margin: auto;
+		float: none;
+	}
+
+	.attempt3 p{
+		font-size: 20px;
+		width: 300px;
+	}
+
+	.foto{
+		margin: 40px auto;
+	}
+
+	.foto img{
+		width: 150px;
+	}
+
+	.work h1{
+		font-size: 30px;
+	}
+
+	.attempt4 img{
+		width: 150px;
+		height: 150px;
+		display: block;
+		float: none;
+		margin: 30px auto 0;
+	}
+
+	.attempt4 h1{
+		font-size: 22px;
+	}
+
+	.attempt4 p{
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.comet{
+		width: 350px;
+	}
+
+	.comet img{
+		width: 100px;
+		height: 100px;
+	}
+
+	.attempt5 img{
+		width: 150px;
+		height: 150px;
+		display: block;
+		float: none;
+		margin: auto;
+	}
+
+	.attempt5 h1{
+		font-size: 22px;
+		text-align:center;
+	}
+
+	.attempt5 p{
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.attempt6 h1{
+		font-size: 22px;
+	}
+
+	.attempt6 h3{
+		font-size: 19px;
+	}
+
+	.attempt6 p{
+		font-size: 16px;
+	}
+
+	.contact img{
+		width: 40px;
+		height: 40px;
+		margin: 0 5px 0;
+		padding: 5px;
+	}
+
+	.footer p{
+		font-size: 20px;
+	}
+
+	.footer a{
+		font-size: inherit;
+	}
 }
