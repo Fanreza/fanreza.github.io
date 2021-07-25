@@ -54,26 +54,31 @@ body{
 	}
 }
 
+/* Section 1 Attempt 2 */
 .attempt2{
-	margin-top: 100px;
-	margin-left: 25%;
-	position: relative;
-	width: 50%;
+	margin: 100px auto 0;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.attempt2 img{
+.attempt2 .image img{
 	width: 200px;
-	float: left;
 	padding-right: 25px;
 	border-radius: 20%;
 }
 
-.attempt2 p{
+.attempt2 .text{
+	width: 50%;
+}
+
+.attempt2 .text p{
 	text-align: center;
 	color: white;
 	font-size: 30px;
 	padding: 50px 0 50px 0;
-	text-align: left;
+	text-align: right;
 }
 
 .attempt3{
