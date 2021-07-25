@@ -12,22 +12,24 @@ body{
 	
 }
 
-.attempt1 img{
+/* Section 1 Attempt 1 */
+.attempt1 .image img{
 	margin-top: 20px;
 	width: 200px;
-	margin-left: 42%;
+	display: block;
+	margin: 0 auto;
 	border-radius: 50%;
 	box-shadow: 0 0 15px 10px yellow;
 }
 
-.attempt1 h1{
+.attempt1 .text h1{
 	text-align: center;
 	color: white;
 	font-size: 60px;
 	margin-top: 15px;
 }
 
-.attempt1 p{
+.attempt1 .text p{
 	text-align: center;
 	color: white;
 	font-size: 30px;
