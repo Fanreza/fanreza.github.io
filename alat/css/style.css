@@ -36,6 +36,24 @@ body{
 	padding-bottom: 20px;
 }
 
+/* Responsive Section 1 Attempt 1 */
+@media screen and (min-width: 300px) and (max-width: 450px) {
+	.attempt1 .image img{
+		width: 150px;
+		height: 150px;
+		display: block;
+		margin: 50px auto;
+	}
+
+	.attempt1 .text h1{
+		font-size: 25px;
+	}
+
+	.attempt1 .text p{
+		font-size: 18px;
+	}
+}
+
 .attempt2{
 	margin-top: 100px;
 	margin-left: 25%;
