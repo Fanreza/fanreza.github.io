@@ -14,8 +14,11 @@ body{
 
 
 /* Section 1 Attempt 1 */
-.attempt1 .image img{
+.section1 .attempt1{
 	margin-top: 20px;
+}
+
+.section1 .attempt1 .image img{
 	width: 200px;
 	display: block;
 	margin: 0 auto;
@@ -23,53 +26,53 @@ body{
 	box-shadow: 0 0 15px 10px yellow;
 }
 
-.attempt1 .text h1{
+.section1 .attempt1 .text h1{
 	text-align: center;
 	color: white;
 	font-size: 60px;
 	margin-top: 15px;
 }
 
-.attempt1 .text p{
+.section1 .attempt1 .text p{
 	text-align: center;
 	color: white;
 	font-size: 30px;
 }
 
-.attempt1 .arrow{
+.section1 .attempt1 .arrow{
 	padding-top: 10px;
 	text-align: center;
 }
 
-.attempt1 .arrow i{
+.section1 .attempt1 .arrow i{
 	font-size: 30px;
 }
 
 /* Responsive Section 1 Attempt 1 */
 @media screen and (min-width: 300px) and (max-width: 450px) {
-	.attempt1 .image img{
+	.section1 .attempt1 .image img{
 		width: 150px;
 		height: 150px;
 		display: block;
 		margin: 50px auto;
 	}
 
-	.attempt1 .text h1{
+	.section1 .attempt1 .text h1{
 		font-size: 25px;
 	}
 
-	.attempt1 .text p{
+	.section1 .attempt1 .text p{
 		font-size: 18px;
 	}
 
-	.attempt1 .arrow i{
+	.section1 .attempt1 .arrow i{
 		font-size: 20px;
 	}
 }
 
 
 /* Section 1 Attempt 2 */
-.attempt2{
+.section1 .attempt2{
 	margin: 100px auto 0;
 	width: 70%;
 	display: flex;
@@ -77,17 +80,17 @@ body{
 	align-items: center;
 }
 
-.attempt2 .image img{
+.section1 .attempt2 .image img{
 	width: 200px;
 	padding-right: 25px;
 	border-radius: 20%;
 }
 
-.attempt2 .text{
+.section1 .attempt2 .text{
 	width: 60%;
 }
 
-.attempt2 .text p{
+.section1 .attempt2 .text p{
 	text-align: right;
 	color: white;
 	font-size: 30px;
@@ -95,23 +98,23 @@ body{
 
 /* Responsive Section 1 Attempt 2 */
 @media screen and (min-width: 300px) and (max-width: 450px){
-	.attempt2{
+	.section1 .attempt2{
 		width: 100%;
 		margin-top: 0;
 	}
 
-	.attempt2 .image img{
+	.section1 .attempt2 .image img{
 		width: 90px;
 		padding-left: 20px;
 		padding-right: 5px;
 	}
 
-	.attempt2 .text{
+	.section1 .attempt2 .text{
 		width: 100%;
 		padding-right: 20px;
 	}
 
-	.attempt2 .text p{
+	.section1 .attempt2 .text p{
 		text-align: center;
 		color: white;
 		font-size: 16px;
@@ -121,7 +124,7 @@ body{
 
 
 /* Section 1 Attempt 3 */
-.attempt3{
+.section1 .attempt3{
 	margin: 100px auto 0;
 	width: 100%;
 	display: flex;
@@ -130,18 +133,18 @@ body{
 	align-items: center;
 }
 
-.attempt3 .image img{
+.section1 .attempt3 .image img{
 	width: 200px;
 	animation: rotate 6s infinite alternate;
 	border-radius: 50%;
 	padding-left: 5px;
 }
 
-.attempt3 .text{
+.section1 .attempt3 .text{
 	width: 50%;
 }
 
-.attempt3 .text p{
+.section1 .attempt3 .text p{
 	text-align: center;
 	color: white;
 	font-size: 30px;
@@ -151,18 +154,18 @@ body{
 
 /* Responsive Section 1 Attempt 3 */
 @media screen and (min-width: 300px) and (max-width: 450px){
-	.attempt3{
+	.section1 .attempt3{
 		margin: 20px auto 0;
 		flex-wrap: wrap;
 		align-items: flex-start;
 	}
 
-	.attempt3 .image{
+	.section1 .attempt3 .image{
 		width: 100%;
 		text-align: center;
 	}
 
-	.attempt3 .image img{
+	.section1 .attempt3 .image img{
 		width: 50%;
 		animation: rotate 6s infinite alternate;
 		border-radius: 50%;
@@ -170,13 +173,13 @@ body{
 		padding-right: 20px;
 	}
 
-	.attempt3 .text{
+	.section1 .attempt3 .text{
 		width: 100%;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
 
-	.attempt3 .text p{
+	.section1 .attempt3 .text p{
 		text-align: center;
 		font-size: 16px;
 		padding: 0 0 0 0;
@@ -191,142 +194,125 @@ body{
 }
 
 
-.work h1{
+
+/* Section 2 */
+.section2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+/* Section 2 Attempt 1*/
+.section2 .attempt1{
+	margin-top: 100px;
+	width: 100%;
+}
+
+.section2 .attempt1 .image img{
+	width: 200px;
+	display: block;
+	margin: 10px auto;
+}
+
+.section2 .attempt1 .text h1{
 	text-align: center;
 	font-size: 4em;
 	color: white;
 	margin-top: 2%;
 }
 
-.foto img{
-	width: 200px;
-	display: block;
-	margin: 10px auto;
-}
 
-.attempt4{
-	margin-top: 5%;
-	overflow: hidden;
-	margin-left: 25%;
-	position: relative;
-	width: 50%;
-}
-
-.attempt4 h1{
-	font-size: 40px;
-	padding-top: 10px;
-	color: #FEE97D;
-}
-
-.attempt4 img{
-	width: 200px;
-	float: left;
-	padding-right: 25px;
-	animation: puter 9s linear infinite;
-}
-
-.attempt4 p{
-	text-align: center;
-	color: white;
-	font-size: 25px;
-	padding: 20px 0 50px 0;
-	word-spacing: 1.2px;
-	text-align: left;
-}
-
-@keyframes puter{
-	form{
-		transform: rotate(0);
-	}
-
-	to{
-		transform: rotate(360deg);
-	}
-}
-
-.comet img{
-	width: 150px;
-	animation: lewat 5s linear infinite;
-}
-
-@keyframes lewat{
-	0%{
-		transform: rotate(0);
-		margin-left: 0;
-	}
-
-	50%{
-		opacity: 1;
-	}
-
-	75%{
-		opacity: 1;
-	}
-
-	100%{
-		transform: rotate(360deg);
-		margin-left: 78%;
-		opacity: 0;
-	}
-}
-
-.attempt5{
-	margin-top: 5%;
-	overflow: hidden;
-	margin-left: 25%;
-	position: relative;
-	width: 50%;
-}
-
-.attempt5 h1{
-	font-size: 40px;
-	padding-top: 10px;
-	color: #FEE97D;
-	text-align: left;
-}
-
-.attempt5 img{
+/* Section 2 Attempt 2 */
+.section2 .attempt2{
+	width: 47.5%;
 	padding-top: 40px;
-	width: 200px;
-	padding-right: 25px;
-	float: right;
-	animation: rotate 10s infinite alternate;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.attempt5 p{
+.section2 .attempt2 .image{
+	width: 30%;
 	text-align: center;
+}
+
+.section2 .attempt2 .image i{
+	font-size: 600%;
+}
+
+.section2 .attempt2 .text{
+	width: 70%;
+}
+
+.section2 .attempt2 .text h1{
+	font-size: 40px;
+	color: #FEE97D;
+	padding: 10px 0;
+}
+
+.section2 .attempt2 .text p{
 	color: white;
 	font-size: 25px;
-	padding: 20px 0 50px 0;
 	word-spacing: 1.2px;
 	text-align: left;
 }
 
-@keyframes rotate{
-	50%{
-		transform: rotate(30deg);
-	}
 
-	100%{
-		transform: rotate(-30deg);
-	}
+/* Section 2 Attempt 3 */
+.section2 .attempt3{
+	overflow: hidden;
+	width: 47.5%;
+	padding-top: 40px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
 }
 
-.attempt6{
+.section2 .attempt3 .image{
+	width: 30%;
+	align-self: center;
+	text-align: center;
+}
+
+.section2 .attempt3 .image i{
+	font-size: 600%;
+}
+
+.section2 .attempt3 .text{
+	width: 70%;
+}
+
+.section2 .attempt3 .text h1{
+	font-size: 37px;
+	color: #FEE97D;
+	text-align: right;
+	padding: 12px 0;
+}
+
+.section2 .attempt3 .text p{
+	color: white;
+	font-size: 25px;
+	word-spacing: 1.2px;
+	text-align: right;
+}
+
+
+/* Section 2 Attempt 4 */
+.section2 .attempt4{
 	margin-top: 5%;
 	margin-left: 25%;
 	position: relative;
 	width: 50%;
 }
 
-.attempt6 h1{
+.section2 .attempt4 h1{
 	font-size: 40px;
 	padding-top: 10px;
 	color: #FEE97D;
 	text-align: center;
 }
 
-.attempt6 h3{
+.section2 .attempt4 h3{
 	font-size: 30px;
 	text-align: center;
 	margin-top: 4%;
@@ -334,7 +320,7 @@ body{
 }
 
 
-.attempt6 p{
+.section2 .attempt4 p{
 	text-align: center;
 	color: white;
 	font-size: 25px;
@@ -344,6 +330,12 @@ body{
 }
 
 
+
+
+
+
+
+/* Footer */
 .footer{
 	background-color:;
 	height: 80px;
@@ -369,3 +361,5 @@ body{
 	margin-left: 40px;
 	padding: 60px 5px 5px 5px
 }
+
+
