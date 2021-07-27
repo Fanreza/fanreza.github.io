@@ -222,6 +222,23 @@ body{
 }
 
 
+/* Responsive Section 2 Attempt 1 */
+@media screen and (min-width: 300px) and (max-width: 450px){
+	.section2 .attempt1{
+		margin-top: 50px;
+	}
+
+	.section2 .attempt1 .image img{
+		width: 150px;
+	}
+
+	.section2 .attempt1 .text h1{
+		font-size: 2em;
+	}
+}
+
+
+
 /* Section 2 Attempt 2 */
 .section2 .attempt2{
 	width: 47.5%;
