@@ -100,7 +100,7 @@ body{
 @media screen and (min-width: 300px) and (max-width: 450px){
 	.section1 .attempt2{
 		width: 100%;
-		margin-top: 0;
+		margin-top: 50px;
 	}
 
 	.section1 .attempt2 .image img{
@@ -155,7 +155,7 @@ body{
 /* Responsive Section 1 Attempt 3 */
 @media screen and (min-width: 300px) and (max-width: 450px){
 	.section1 .attempt3{
-		margin: 20px auto 0;
+		margin: 30px auto 0;
 		flex-wrap: wrap;
 		align-items: flex-start;
 	}
