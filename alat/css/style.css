@@ -370,9 +370,7 @@ body{
 
 /* Section 2 Attempt 4 */
 .section2 .attempt4{
-	margin-top: 5%;
-	margin-left: 25%;
-	position: relative;
+	margin: 50px auto;
 	width: 50%;
 }
 
@@ -395,10 +393,34 @@ body{
 	text-align: center;
 	color: white;
 	font-size: 25px;
-	padding: 20px 0 50px 0;
 	word-spacing: 1.2px;
 	text-align: center;
 }
+
+
+/* Responsive Section 4 Attempt 3 */
+@media screen and (min-width: 300px) and (max-width: 450px){
+	.section2 .attempt4{
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	.section2 .attempt4 h1{
+		font-size: 25px;
+	}
+
+	.section2 .attempt4 h3{
+		font-size: 20px;
+		margin-top: 0;
+	}
+
+
+	.section2 .attempt4 p{
+		font-size: 16px;
+		padding-top: 20px;
+	}
+}
+
 
 
 
