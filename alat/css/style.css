@@ -275,6 +275,33 @@ body{
 }
 
 
+
+/* Responsive Section 2 Attempt 2 */
+@media screen and (min-width: 300px) and (max-width: 450px){
+	.section2 .attempt2{
+		width: 100%;
+	}
+
+	.section2 .attempt2 .image i{
+		font-size: 300%;
+	}
+
+	.section2 .attempt2 .text h1{
+		font-size: 25px;
+		text-align: right;
+		padding-right: 20px;
+	}
+
+	.section2 .attempt2 .text p{
+		font-size: 16px;
+		text-align: right;
+		padding-right: 20px;
+	}
+}
+
+
+
+
 /* Section 2 Attempt 3 */
 .section2 .attempt3{
 	overflow: hidden;
